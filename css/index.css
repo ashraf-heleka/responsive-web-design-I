@@ -197,9 +197,7 @@ footer {
 
 @media screen and (max-width: 500px){
     .container {
-    width: 80%;
-    margin: 0 50vw;
-
+    width: 90vw;
     }
     header {
         display: flex;
@@ -220,10 +218,10 @@ footer {
         border-bottom: black 1px solid;
     }
     header .logo {
-        width: 35vw;
+        width: 25vw;
     }
     header nav a {
-        font-size: 20px;
+        font-size: 16px;
         color: gray;
         text-decoration: none;
         border-bottom: black 1px solid;
@@ -237,16 +235,16 @@ footer {
       .cta {
           display: flex;
           flex-direction: column;
-          height: 40vh;
       }
 
     .cta .cta-text {
         margin: 30px 0px 0px;
         padding: 0px;
+        font-size: 45px;
       }
       
       .cta .cta-text button {
-        margin-top: 0px;
+        margin: 0px 0px 35px 0px;
         padding: 5px;
         font-size: 17px;
       }
@@ -264,7 +262,8 @@ footer {
         flex-direction: COLUMN;
         justify-content: space-evenly;
         align-items: center;
-        margin: 0px auto;
+        width: auto;
+        margin: 0px 15%;
         margin-bottom: 0px;
     
         
