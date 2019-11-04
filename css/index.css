@@ -188,3 +188,49 @@ footer {
   font-size: 14px;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px){
+    body{
+
+    }
+}
+
+@media screen and (max-width: 500px){
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 25vh;
+    }
+    header .logo-div {
+        margin: 15px 40px -30px 40px;
+        padding: 0px 30px 10px;
+        border-bottom: black 1px solid;
+    }
+    header .logo {
+        width: 35vw;
+        
+
+    }
+    header nav a {
+        font-size: 20px;
+        color: gray;
+        text-decoration: none;
+        border-bottom: black 1px solid;
+        margin: 0px 0px;
+        padding: 0px 80px 10px;
+      }
+      header nav a:first-child {       
+        margin: 0px 0px -30px 0px;
+        ;
+      }
+      }
+    
+}
