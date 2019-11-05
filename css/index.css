@@ -189,7 +189,7 @@ footer {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 800px){
+@media (max-width: 800px){
     .container {
         max-width: 100%;
         width: 100vw;
@@ -257,7 +257,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 500px){
+@media (max-width: 500px){
     .container {
         width: 60vw;
         margin: 0 20%;
